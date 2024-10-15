@@ -1,0 +1,6 @@
+Max = 92
+Min = 55
+Average = 77.17
+Highest Value = 92 81 89
+Lowest Value = 73 67 55
+Average Value =  82.00 74.00 75.50
