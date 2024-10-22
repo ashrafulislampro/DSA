@@ -21,13 +21,18 @@ int main()
     s.push('Y');
 
     cout << "The stack is : " << endl;
-    showstack(s);
+    // showstack(s);
+    while (!s.empty())
+    {
+        cout << s.top() << endl;
+        s.pop();
+    }
 
     cout << "Stack size is " << s.size() << endl;
     cout << "Top element is " << s.top() << endl;
 
-    s.pop();
-    s.pop();
+    // s.pop();
+    // s.pop();
 
     cout << "After 2(Two) pop Operations the stack is: " << endl;
     showstack(s);
